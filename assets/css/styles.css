@@ -1,11 +1,17 @@
 #logo{
     border-radius: 5px;
-    width: 100px;
+    font-size: 60px;
+    width: 100%;
+    line-height: 60px;
 }
-
 .green{
     color:green;
 }
 .red{
     color:red;
+}
+
+#mainBody{
+    margin-top: 50px;
+    font-size: 60px;
 }
