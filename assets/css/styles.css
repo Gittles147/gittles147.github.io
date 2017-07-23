@@ -1,8 +1,17 @@
+html, body{
+    height: 100%;
+}
 #logo{
-    border-radius: 5px;
+    border-radius: 20px;
+    border: 2px solid black;
     font-size: 60px;
-    width: 100%;
+    width: 350px;
+    padding: 5px;
+    margin: auto;
+    position: relative;
     line-height: 60px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .green{
     color:green;
@@ -10,8 +19,16 @@
 .red{
     color:red;
 }
-
+#header{
+    min-height: 150px;
+    height: 20%;
+}
 #mainBody{
-    margin-top: 50px;
+    height: 80%;
     font-size: 60px;
+    background: url("../images/turbine.jpg") no-repeat top center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
